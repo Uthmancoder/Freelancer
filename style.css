@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    width: 150px;
+}
+
+.log,
+.long {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.long a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 20;
+    color: black;
+}
+
+.log a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 20;
+    color: black;
+}
+
+.log,
+.long a:hover {
+    color: blue;
+}
+.nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    position: relative;
+    margin-top: 82px;
+    z-index: 1;
+}
+
+
+.big button {
+    padding: 18px 20px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+
+.big button:hover {
+    background-color: rgb(50, 58, 59);
+}
+
+.bi button {
+    padding: 18px 20px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+
+
+}
+
+.bi {
+    left: 0;
+    padding: 0 20px;
+
+}
+
+.bi button:hover {
+    background-color: rgb(50, 58, 59);
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    /* box-shadow: 0 0 10px gray; */
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    transform: rotate(50deg);
+    background-color: white;
+    top: 52px;
+
+
+}
+
+.dropdown-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    top: 73px;
+    /* border: 1px solid black; */
+    position: absolute;
+}
+
+.drp-d-cont {
+    color: black;
+    text-align: center;
+}
+
+.drp-d-cont h5 {
+    padding: 10px 0;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+.drp-d-cont h5:hover {
+    color: lightskyblue;
+}
+
+.drp-down-cont2 {
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow: 0 0 4px black; */
+    top: -2px;
+    left: -2px;
+    position: absolute;
+    display: none;
+}
+
+.hv-drp1:hover .drp-down-cont2 {
+    display: block;
+}
+
+.drp-dwn-cont2 {
+    color: black;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+.drp-d-cont h5:hover {
+    color: lightskyblue;
+
+}
+
+p:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.drp-dwn-cont2 p {
+    font-size: 15px;
+    margin: 2px 0;
+    text-align: left;
+}
+
+.drp-dwn-cont2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.first {
+    width: 180px;
+}
+
+.second {
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+}
+
+.third {
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+}
+
+.dr-con {
+    width: 850px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow: 0 0 4px black; */
+    left: -2px;
+    top: -2px;
+    position: absolute;
+    display: none;
+}
+
+.hover1:hover .dr-con {
+    display: block;
+}
+
+.d-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hover2:hover .third1 {
+    display: none;
+}
+
+.hover2:hover .third {
+    display: block;
+}
+
+.bam {
+    display: none;
+}
+
+.nav-menu:focus-within .bam {
+    display: block;
+}
+
+.cam {
+    display: none;
+
+}
+
+.tommy:focus-within .cam {
+    display: block;
+}
+
+.fst {
+    width: 180px;
+}
+
+/* third part */
+
+.dropd-con {
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    top: 73px;
+    /* box-shadow: 0 0 10px whitesmoke; */
+    position: absolute;
+
+}
+
+.drp-co {
+    color: black;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+
+.bog button {
+    padding: 18px 20px 16px 20px;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.bog button:hover {
+    background-color: rgb(50, 58, 59);
+}
+
+.non {
+    display: none;
+}
+
+.bog:focus-within .non {
+    display: block;
+}
+
+/* fourth dropdown */
+.drpd-con {
+    width: 270px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: white;
+    top: 73px;
+    /* box-shadow: 0 0 10px whitesmoke; */
+    position: absolute;
+}
+
+.bgg button {
+    padding: 18px 20px 16px 20px;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.none {
+    display: none;
+}
+
+.bgg:focus-within .none {
+    display: block;
+
+}
+
+.drpdwn-con {
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    top: 73px;
+    /* box-shadow: 0 0 10px whitesmoke; */
+    position: absolute;
+}
+
+.nil {
+    display: none;
+}
+
+.big:focus-within .nil {
+    display: block;
+}
+
